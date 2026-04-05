@@ -2,14 +2,13 @@
 
 ## 📌 Overview
 
-This project is an **AI-powered stock market analysis and trading system** that uses:
-
-* Machine Learning models
-* Ensemble techniques
-* Fundamental analysis (EPS, PE)
-* Technical indicators
-
-It also includes a **Streamlit dashboard** for live predictions and visualization.
+End-to-end AI-powered stock prediction system with:
+- Machine Learning models (XGB, LGB, LR, MLP, CAT, ET and RF)
+- Ensemble strategy
+- Backtesting engine
+- Risk management (StopLoss, Target, RR Ratio)
+- Portfolio allocation (Risk parity)
+- Streamlit dashboard
 
 ---
 
@@ -31,6 +30,18 @@ It also includes a **Streamlit dashboard** for live predictions and visualizatio
 
   * EPS, PE Ratio, Market Cap
 * 📊 Live dashboard using Streamlit
+
+---
+
+## 📂 END-to-end AI-powered stock prediction system Flow
+
+End-to-end AI-powered stock prediction system with:
+- Machine Learning models (XGB, LGB, LR, MLP, CAT)
+- Ensemble strategy
+- Backtesting engine
+- Risk management (StopLoss, Target, RR Ratio)
+- Portfolio allocation (Risk parity)
+- Streamlit dashboard
 
 ---
 
@@ -97,7 +108,7 @@ streamlit run app.py
 | ----------- | --------------- | ------------ |
 | Ensemble    | High            | Strong       |
 | XGBoost     | Strong          | Stable       |
-| Extra Trees | High            | Aggressive   |
+| Linear Reg  | High            | Aggressive   |
 
 ---
 
