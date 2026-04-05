@@ -37,42 +37,36 @@ It also includes a **Streamlit dashboard** for live predictions and visualizatio
 ## 📂 Project Structure
 
 ```
-stock-market-analysis/
+AI_Stock_Market_Analysis/
 │
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── ALL_STOCKS_EPS.csv
-│
-├── notebooks/
-│   └── EDA.ipynb
-│
-├── src/
-│   ├── config.py
-│   ├── data_loader.py
-│   ├── features.py
-│   ├── fundamentals.py
-│   ├── target.py
-│   ├── preprocessing.py
-│   ├── models.py
-│   ├── backtest.py
-│   ├── optimizer.py
-│   ├── predict.py
-│   └── utils.py
-│
-├── artifacts/
-│   ├── models.pkl
-│   ├── scaler.pkl
-│   ├── weights.pkl
-│   └── features.pkl
-│
-├── app/
-│   └── app.py   (FastAPI / Streamlit)
-│
+├── app.py
 ├── main.py
 ├── requirements.txt
 ├── README.md
-└── .gitignore
+├── .gitignore
+│
+├── artifacts/
+│   ├── final_df.pkl
+│   ├── scaler.pkl
+│   ├── models.pkl
+│   ├── features.pkl
+│
+├── src/
+│   ├── predict.py
+│   ├── models.py
+│   ├── features.py
+│   ├── backtest.py
+│   ├── evaluation.py
+│   ├── preprocessing.py
+│   ├── fundamentals.py
+│   ├── data_loader.py
+│   └── target.py
+│
+├── config/
+│   └── config.py
+│
+└── train.py
+
 
 ```
 
