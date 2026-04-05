@@ -20,7 +20,7 @@ from src.predict import predict_today
 # PAGE CONFIG
 # =========================
 st.set_page_config(page_title="AI Trading Dashboard", layout="wide")
-st.title("📈 AI Trading Dashboard (V6 Pro)")
+st.title("📈 AI Trading Dashboard (Long & Short Positions)")
 
 # =========================
 # LOAD DATA
@@ -87,6 +87,8 @@ def color_signal(val):
         return "background-color: #2E7D32; color: white"
     elif val == "BUY":
         return "background-color: #66BB6A; color: white"
+    elif val == "HOLD":
+        return "background-color: #F9A825; color: black"
     elif val == "SELL":
         return "background-color: #E53935; color: white"
     elif val == "STRONG SELL":
