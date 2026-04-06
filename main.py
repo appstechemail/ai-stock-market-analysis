@@ -293,7 +293,8 @@ def main():
 
     joblib.dump(final_df, "artifacts/final_df.pkl")
     joblib.dump(scaler, "artifacts/scaler.pkl")
-    joblib.dump(models, "artifacts/models.pkl")
+    # joblib.dump(models, "artifacts/models.pkl")
+    joblib.dump(models, "artifacts/models.pkl", compress=3)
     joblib.dump(FEATURES, "artifacts/features.pkl")
 
     print("✅ Artifacts saved successfully")
